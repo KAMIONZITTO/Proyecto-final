@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinilito P3 – Carrito</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Carrito – Vinilito P3</h1>
+    <nav>
+      <a href="index.html">Catálogo</a>
+      <a href="index2.html">Carrito</a>
+    </nav>
+  </header>
+
+  <main class="carrito-container">
+    <h2>Tu carrito</h2>
+
+    <div id="carritoVacio" class="mensaje-vacio">
+      El carrito está vacío
+    </div>
+
+    <table id="tablaCarrito" class="tabla-carrito" style="display: none;">
+      <thead>
+        <tr>
+          <th>Disco</th>
+          <th>Detalles</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Subtotal</th>
+          <th>Eliminar</th>
+        </tr>
+      </thead>
+
+      <tbody id="carritoItems">
+       
+      </tbody>
+    </table>
+
+    <div id="totalContainer" class="total-container" style="display: none;">
+      <p>Total: <span id="totalPagar">$0.00</span></p>
+      <button id="btnPagar" class="btn-pagar">Pagar</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Proyecto Web – Equipo</p>
+  </footer>
+
+  
+  <script src="js/miScript.js"></script>
+</body>
+</html>
