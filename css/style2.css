@@ -1,15 +1,21 @@
+.bbh-sans-hegarty-regular {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(0, 0, 0,0);
 }
 
 html{
     scroll-behavior: smooth;
 }
 
-.contenido{
+.partes{
     height: 100vh;
     background-size: 100% auto;
     background-attachment: fixed;
@@ -17,36 +23,23 @@ html{
     position: relative;
 }
 
-#zona1{
-    background-image: url('../images/images/landingpage.jpg');
-}
-
-#zona2{
-    background-image: url('../images/images/porsche.jpg');
-}
-
-#zona30{
-    background-image: url('../images/images/1930.jpg');
-}
-
-#zona40{
-    background-image: url('../images/images/1940.jpg');
-}
-
-#zona50{
-    background-image: url('../images/images/1950.jpg');
-}
-
-#zona60{
-    background-image: url('../images/images/1960.jpg');
+.titulos{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40vh;
+    padding-right: 120vh;
+    background: none;
+    text-decoration:underline;
 }
 
 .titulo{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     text-align: center;
     padding-top: 40vh;
     background: none;
+    text-decoration:underline;
 }
 
 .subtitulo{
@@ -79,7 +72,7 @@ nav{
     margin-left: 920px;
     background-color: #db4a34;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 8px;
     
 }
@@ -88,7 +81,7 @@ nav{
     margin-left: 920px;
     background-color: #db4a34;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 8px;
     
 }
@@ -97,7 +90,7 @@ nav{
     margin-left: 920px;
     background-color: #db4a34;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 8px;
     
 }
@@ -136,7 +129,6 @@ ul a:hover{
 #album .card-body {
     width: 250px;
     background: white;
-    background-color: ;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -157,14 +149,135 @@ ul a:hover{
     margin-left: 20px;
 }
 
-#anuncios {
-    width: 300px;
+.cuadrado{
+    width: 900px;
+    height: 600px;
+    background: white;
+    border-color:100px #db4a34;
+    border-radius: 5%;
 }
 
-.anuncio {
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-left: 80px;
+.cont{
+    height: 100vh;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sesion {
+    background: rgba(255, 255, 255, 0);
+    padding: 25px;
+    width: 900px;
+}
+
+.sesion h2,h3{
+    background-color: white;
+}
+
+.sesion input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #303030;
+    color: #ffffff;
+}
+.sesion a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    background: #db4a34;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#aa{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    background: #4d34db;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.zona5{
+    background-image: url("../img/usuarioo.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zona4{
+    background-image: url("../img/usuarioo.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zona3{
+    background-image: url("../img/catalogo.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zona1{
+    background-image: url("../img/inicio.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zona2{
+    background-image: url("../img/carrito.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sun{
+    display: flex;
+    width: 100px;
+    margin: 70px 38vh;
+}
+
+#zom{
+    display: flex;
+    width: 150px;
+    margin: 70px 38vh;
+}
+
+#aaa{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration:underline;
+    height: 50px;
+    width: 800px;
+    justify-content: center;
+    padding: 10px 0vh;
+    background-color: rgb(171, 171, 171,0);
 }

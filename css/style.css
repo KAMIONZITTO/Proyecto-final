@@ -153,3 +153,14 @@ footer {
   color: #fff;
   margin-top: 40px;
 }
+
+#botones{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10%;
+  background: #ffffff;
+  color: rgb(164, 27, 27);
+  font-weight: bold;
+  text-decoration: none;
+}
