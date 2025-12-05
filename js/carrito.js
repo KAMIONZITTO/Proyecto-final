@@ -40,7 +40,7 @@ function mostrarCarrito() {
         <td>$${item.precio}</td>
         <td>1</td>
         <td>$${subtotal}</td>
-        <td><button onclick="eliminar(${index})" class="btn-eliminar">X</button></td>
+        <td><button onclick="eliminar(${index})" class="btnE">X</button></td>
       </tr>
     `;
   });

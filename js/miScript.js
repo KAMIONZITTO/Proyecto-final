@@ -136,7 +136,7 @@ function mostrarCatalogo() {
 
         <p><strong>$${d.precio}</strong></p>
 
-        <button onclick="agregarCarrito(${d.id})" class="btn-agregar">Agregar al carrito</button>
+        <button onclick="agregarCarrito(${d.id})" class="btnA">Agregar al carrito</button>
       </div>
     `;
   });
@@ -208,6 +208,6 @@ btnActualizar.addEventListener("click", () => {
 
   localStorage.setItem("discos", JSON.stringify(data));
   mostrarCatalogo();
-  alert("Producto actualizado ✏️");
+  alert("Producto actualizado");
 });
 

@@ -74,18 +74,18 @@ header nav a:hover {
   background: #333;
 }
 
-.carrito-container {
+.carritoC {
   padding: 20px;
 }
 
-.mensaje-vacio {
+.mensajeVacio {
   text-align: center;
   font-size: 20px;
   margin-top: 30px;
   color: #444;
 }
 
-.tabla-carrito {
+.tablaC {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
@@ -95,20 +95,20 @@ header nav a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.tabla-carrito th {
+.tablaC th {
   background: #222;
   color: white;
   padding: 12px;
   text-align: center;
 }
 
-.tabla-carrito td {
+.tablaC td {
   padding: 10px;
   text-align: center;
   border-bottom: 1px solid #ddd;
 }
 
-.btn-eliminar {
+.btnE {
   background: crimson;
   color: white;
   border: none;
@@ -117,11 +117,11 @@ header nav a:hover {
   cursor: pointer;
 }
 
-.btn-eliminar:hover {
+.btnE:hover {
   background: rgb(190, 0, 40);
 }
 
-.total-container {
+.totalC {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -132,7 +132,7 @@ header nav a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.btn-pagar {
+.btnP {
   padding: 10px 20px;
   background: #111;
   color: white;
@@ -142,7 +142,7 @@ header nav a:hover {
   font-weight: bold;
 }
 
-.btn-pagar:hover {
+.btnP:hover {
   background: #333;
 }
 
